@@ -20,13 +20,10 @@
   <body>
     <header class="top">
       <div class="container">
-        <a href="./index.html" class="logo-link">
-          <img
-            src="./images/logo.png"
-            alt="logo"
-            class="logo-image"
-            width="66"
-          />
+        <a href="./index.html" class="logo-link" aria-label="Foodsta logo">
+          <svg class="logo-icon" width="66" height="52">
+            <use href="./images/icons.svg#icon-logo"></use>
+          </svg>
         </a>
         <nav class="top-navigation">
           <ul class="navigation-list list">
@@ -75,12 +72,15 @@
       </section>
       <section class="offering">
         <div class="container">
-          <img
+          <div class="offering-image-block">
+            <img
             src="./images/offerings/apple.png"
             alt="apple"
             class="offering-image"
             width="396"
           />
+          </div>
+          
           <div class="offering-right">
             <h2 class="secondary-title">What’s Special About Our Offerings</h2>
             <p class="main-text">
@@ -91,7 +91,11 @@
             </p>
             <ul class="offering-list list">
               <li class="offering-item">
-                <img src="" alt="" class="offering-item-svg" />
+                <div class="offering-icon-block">
+                  <svg class="offering-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-rocket-launch"></use>
+                  </svg>
+                </div>
                 <h3 class="offering-item-title">Fasest Delivery</h3>
                 <p class="offering-item-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -99,7 +103,11 @@
                 </p>
               </li>
               <li class="offering-item">
-                <img src="" alt="" class="offering-item-svg" />
+                <div class="offering-icon-block">
+                  <svg class="offering-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-touch-app"></use>
+                  </svg>
+                </div>
                 <h3 class="offering-item-title">Easy To Order</h3>
                 <p class="offering-item-text">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -169,6 +177,23 @@
           <ul class="reviews-list list">
             <li class="reviews-item item">
               <article class="reviews-card">
+                <div class="reviews-icon-block">
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </div>
                 <p class="reviews-card-text">
                   “The Best app I have used to order food in a while, so many
                   options to choose from too, I would recommend to a freind, No
@@ -190,6 +215,23 @@
             </li>
             <li class="reviews-item item">
               <article class="reviews-card">
+                <div class="reviews-icon-block">
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                  <svg class="reviews-icon" width="17" height="16">
+                    <use href="./images/icons.svg#icon-star"></use>
+                  </svg>
+                </div>
                 <p class="reviews-card-text">
                   “The ease with which I can just go in and order what i want
                   was amazing, It has been a very pleasant experience ordering
@@ -239,14 +281,11 @@
         <div class="bacement-top-part">
           <section class="bacement-menu">
             <a href="./index.html" class="logo-link">
-              <img
-                src="./images/logo.png"
-                alt="logo"
-                class="logo-image"
-                width="66"
-              />
+              <svg class="logo-icon" width="66" height="52">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
             </a>
-            <ul class="navigation-list list">
+            <ul class="navigation-list list footer-navigation-list">
               <li class="navigation-item item">
                 <a href="" class="navigation-link link">Home</a>
               </li>
@@ -265,7 +304,7 @@
             </ul>
           </section>
           <section class="bacement-subscribtion">
-            <h2 class="subtitle">Subscribe</h2>
+            <h2 class="subtitle basement-subtitle">Subscribe</h2>
             <form action="" class="subscribe-form">
               <input type="email" placeholder="Enter your email" />
               <input
@@ -276,7 +315,7 @@
             </form>
             <p class="bacement-subscribtion-policy">
               By subscribing you agree to with our
-              <a class="bacement-subscribtion-policy-link" href=""
+              <a class="bacement-subscribtion-policy-link link" href=""
                 >Privacy Policy</a
               >
             </p>
